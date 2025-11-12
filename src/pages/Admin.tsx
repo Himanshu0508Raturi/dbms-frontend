@@ -15,7 +15,7 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-const BASE_URL = 'https://ilibrary-backend.onrender.com';
+const BASE_URL = '/api';
 
 const Admin = () => {
   const { user, token, isAuthenticated } = useAuth();

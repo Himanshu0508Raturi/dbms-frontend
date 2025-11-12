@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/alert-dialog';
 import { Badge } from '@/components/ui/badge';
 
-const BASE_URL = 'https://ilibrary-backend.onrender.com';
+const BASE_URL = '/api';
 
 interface Booking {
   id: number;

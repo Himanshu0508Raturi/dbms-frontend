@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
 import { Check, Sparkles } from 'lucide-react';
 
-const BASE_URL = 'https://ilibrary-backend.onrender.com';
+const BASE_URL = '/api';
 
 const Subscriptions = () => {
   const { token, isAuthenticated } = useAuth();

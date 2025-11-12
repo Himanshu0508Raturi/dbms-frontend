@@ -6,7 +6,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { toast } from 'sonner';
 import { CreditCard, Loader2 } from 'lucide-react';
 
-const BASE_URL = 'https://ilibrary-backend.onrender.com';
+const BASE_URL = '/api';
 
 const Payment = () => {
   const { token, isAuthenticated } = useAuth();

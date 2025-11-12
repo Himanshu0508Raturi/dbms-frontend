@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { BrowserMultiFormatReader, NotFoundException } from '@zxing/library';
 
-const BASE_URL = 'https://ilibrary-backend.onrender.com';
+const BASE_URL = '/api';
 
 const Librarian = () => {
   const { user, token, isAuthenticated } = useAuth();
